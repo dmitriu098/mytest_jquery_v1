@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HTMLHint</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="fonts/font-awesome/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One|Rokkitt:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+	<link href="css/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<form action="#" id="testForm">
+					<div class="tab" data-question="1k">
+						<h1>В каком случае из перечисленных событие не попадет на обработку javascript?</h1>
+						<fieldset>
+							<label>
+								<input  type="radio" name="zd1" data-variant="1">
+								<p>Если в момент его наступления</p>
+							</label>
+							<label>
+								<input  type="radio" name="zd1"  data-variant="2">
+								<p>Если в момент его наступления обрабатывается другое </p>
+							</label>
+							<label>
+								<input  type="radio" name="zd1"  data-variant="3">
+								<p>Если в момент его наступленtttttt</p>
+							</label>
+
+							<input  type="text" name="test"  data-variant="3">
+							<p>Если в момент его наступленtttttt</p>
+							</label>
+						</fieldset>
+					</div>
+
+					<div class="tab" data-question="2k">
+						<h1>Какие из этих вызовов корректно бросят исключение ?</h1>
+						<fieldset>
+							<label>
+								<input  type="checkbox" name="zd2">
+								<p>throw "Ошибка"</p>
+							</label>
+							<label>
+								<input  type="checkbox" name="zd2">
+								<p>throw new Error("Ошибка")</p>
+							</label>
+							<label>
+								<input  type="checkbox" name="zd2">
+								<p>throw { message: "Ошибка" }</p>
+							</label>
+							<label>
+								<input type="checkbox" name="zd2">
+								<p>throw Error("Ошибка")</p>
+							</label>
+							<label>
+								<input  type="checkbox" name="zd2">
+								<p>Ни один</p>
+							</label>
+						</fieldset>
+					</div>
+
+					<div class="tab" data-question="3k">
+						<h1>Какое событие не вызывается кликом мыши ?</h1>
+						<fieldset>
+							<label>
+								<input  type="radio" name="zd3">
+								<p>onfocus</p>
+							</label>
+							<label>
+								<input  type="radio" name="zd3">
+								<p>onclick</p>
+							</label>
+							<label>
+								<input  type="radio" name="zd3">
+								<p>onkeydown</p>
+							</label>
+							<label>
+								<input  type="radio" name="zd3">
+								<p>onmousedown</p>
+							</label>
+						</fieldset>
+					</div>
+
+                    <div class="tab" data-question="4k">
+                        <h1>Какоеtesttesttest?</h1>
+                        <fieldset>
+                            <label>
+                                <input  type="radio" name="zd4">
+                                <p>onfocus</p>
+                            </label>
+                            <label>
+                                <input  type="radio" name="zd4">
+                                <p>onclick</p>
+                            </label>
+                            <label>
+                                <input  type="radio" name="zd4">
+                                <p>onkeydown</p>
+                            </label>
+                            <label>
+                                <input  type="radio" name="zd3">
+                                <p>onmousedown</p>
+                            </label>
+                        </fieldset>
+                    </div>
+
+
+					<div class="btn-group">
+						<button type="button" id="prevBtn" >Назад</button>
+						<button type="button" id="nextBtn">Вперед</button>
+						<button type="submit" id="submit">Отправить</button>
+					</div>
+				</form>
+
+				<div id="myProgress">
+					<div id="myBar"></div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/index2.js"></script>
+</body>
+</html>
